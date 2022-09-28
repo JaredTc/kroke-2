@@ -1,0 +1,24 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+    --primary-color: white;
+    --first-color: #4070F4;
+    --second-color: #0E2431;
+    --color1: #687d82;
+    --color2: #80959a;
+    --color3: #98aeb3;
+    --color4: #afc6cb;
+    --color5: #c7dee3;
+    --header-height: 3rem;
+
+}
+
+:root {
+    --font-family: 'Inter';
+    --body-font: 'Poppins', sans-serif;
+    --font-style: normal;
+    --font-weight: 600;
+    --font-size: 50px;
+    --line-height: 77px;
+}
