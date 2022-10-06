@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="../index.css">
+
+    <link rel="stylesheet" href="G-Eazy.css">
+    <title>G-Eazy</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">KROKE</div>
+        <ul class="nav-links">
+            <div class="menu">
+                <li><a class="nav__link active" href="#Home">Regresar </a></li>
+                <li><a class="nav__link active" href="../index.html">Inicio </a></li>
+                <li><a class="nav__link" href="#songs">Canciones</a></li>
+                <li><a class="nav__link" href="#Contact">Sobre</a></li>
+            </div>
+        </ul>
+    </nav>
+
+    <section class="g-eazy" id="Home">
+
+        <div class="home__container">
+            <div class="conatiner__info">
+                <h1 class="head__h1">G-EAZY</h1>
+                <h1>TOP </h1>
+                <a href="#songs"><span>
+                        <i class="fa-solid fa-angles-down"></i>
+                    </span></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="songs" id="songs">
+        <div class="song__info">
+            <div class="Infogral__song">
+
+                <h1>ME, MYSELF</h1>
+                <h1>& I</h1>
+                <!-- <div class="Info__artist">
+                <p>Gerald Earl Gillum, más conocido por su nombre artístico G-Eazy, es un rapero estadounidense.
+                    Saltó a la fama con su álbum, These Things Happen, lanzado el 23 de junio de 2014. Su
+                    segundo álbum, When It's Dark Out, se lanzó el 4 de diciembre de 2015 y se consolidó como el
+                    más vendido</p>
+           </div> -->
+            </div>
+
+            <div class="top__song">
+                <div>
+                    <a href="#song">
+                        <img src="../assets/m&self.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a href="pages/G-Eazy.html">
+                        <img src="../assets/album2.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <img src="../assets/album3.png" alt="">
+                    </a>
+                </div>
+                <!-- <div>
+                <a href="">
+                    <img src="assets/badbunny.png" alt="">
+                </a>
+            </div> -->
+            </div>
+        </div>
+    </section>
+    <section class="song" id="song">
+
+        <div class="title__song">
+            <h1>ME, MYSELF</h1>
+            <h1>& I</h1>
+            <div class="word__principal">
+                <audio onplay="audioplay()" controls>
+                    <source src="../assets/Video/G-Eazy .mp3" type="audio/mp3">
+                    Tu navegador no soporta audio HTML5.
+                </audio>
+                <div class="words">
+
+                    <span id="letra">
+
+                    </span>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../js/audio.js"></script>
+</body>
+
+</html>
