@@ -14,7 +14,7 @@
 
 }
 :root{
-    --height--section: 1000px;
+    --height--section: 900px;
 }
 :root {
     --font-family: 'Inter';
@@ -42,7 +42,7 @@
     align-items: flex-end;
     color: var(--primary-color);
     font-family: var(--body-font);
-    height: 1100px;
+    height: var(--height--section);
 }
 
 .head__h1 {
@@ -71,7 +71,7 @@
     background-image: url(../assets/bggtnbh.png);
     background-size: cover;
     /* background-position: center; */
-    width: 100%;
+    width: 100%; 
     height: var(--height--section);
     background-repeat: no-repeat;
 }
@@ -81,7 +81,7 @@
 .song__info{
     color: var(--primary-color);
     width: 80%;
-    height: 900px;
+    height: 400px;
     padding-top: 5%;
     padding-left: 5%;
     /* position: absolute;

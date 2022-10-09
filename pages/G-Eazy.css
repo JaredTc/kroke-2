@@ -12,10 +12,11 @@
     --color5: #c7dee3;
     --header-height: 3rem;
 
+
 }
 
 :root {
-    --height--section: 1000px;
+    --height--section: 900px;
 }
 
 :root {
@@ -44,7 +45,7 @@
     align-items: flex-end;
     color: var(--primary-color);
     font-family: var(--body-font);
-    height: 1100px;
+    height: var(--height--section);
 }
 
 .head__h1 {
@@ -74,7 +75,7 @@
     background-size: cover;
     /* background-position: center; */
     width: 100%;
-    height: 900px;
+    height: var(--height--section);
     background-repeat: no-repeat;
 }
 
@@ -83,7 +84,7 @@
 .song__info {
     color: var(--primary-color);
     width: 80%;
-    height: 900px;
+    height: 500px;
     padding-top: 5%;
     padding-left: 5%;
     /* position: absolute;
@@ -129,7 +130,7 @@
     background-size: cover;
     /* background-position: center; */
     width: 100%;
-    height: 1000px;
+    height: var(--height--section);
     background-repeat: no-repeat;
 }
 
@@ -151,7 +152,8 @@
 
 }
 .words{
-    font-size: 70px;
+    font-size: 30px;
+    font-family: var(--body-font);
 }
 
 .title__song{
